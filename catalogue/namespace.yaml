@@ -38,8 +38,8 @@ spec:
         - name: catalogue
           image: joindevops/catalogue:v1
           envFrom:
-        - configMapRef:
-            name: catalogue
+            - configMapRef:
+                name: catalogue
 
 ---          
 apiVersion: v1
