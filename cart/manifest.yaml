@@ -39,8 +39,8 @@ spec:
         - name: cart
           image: joindevops/cart:v1
           envFrom:
-        - configMapRef:
-            name: cart
+            - configMapRef:
+                name: cart
 
 ---          
 apiVersion: v1
