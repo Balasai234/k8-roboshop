@@ -100,7 +100,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: balasaichen/custom-nginx
+        image: balasaichen/custom-nginx:8080
 ---
 apiVersion: v1
 kind: Service
